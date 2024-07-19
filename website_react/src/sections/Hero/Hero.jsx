@@ -1,4 +1,4 @@
-import styles from 'Hero.module.css'
+import styles from './HeroStyles.module.css'
 import heroImg from '../../assets/hero-img.png'
 import sunIcon from '../../assets/sun.svg'
 import moonIcon from '../../assets/moon.svg'
@@ -18,7 +18,7 @@ function Hero() {
     const themeIcon = theme === 'light' ? sunIcon : moonIcon
     const instagramIcon = theme === 'light' ? instagramIconLight : instagramIconDark
     const githubIcon = theme === 'light' ? githubIconLight : githubIconDark
-    const linkedinIcon = theme === 'light' ? linkedinIconLight : linkedinIcon
+    const linkedinIcon = theme === 'light' ? linkedinIconLight : linkedinIconDark
 
 
     return (
@@ -44,7 +44,7 @@ function Hero() {
                     <img src={linkedinIcon} alt="LinkedIn icon" />
                 </a>
             </span>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem perspiciatis, repudiandae distinctio fugiat sunt quam? Quos nisi incidunt quasi magnam distinctio enim illo natus nihil cumque illum nam, atque unde.</p>
+            <p className={styles.description}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem perspiciatis, repudiandae distinctio fugiat sunt quam? Quos nisi incidunt quasi magnam distinctio enim illo natus nihil cumque illum nam, atque unde.</p>
             <a href={CV} download>
                 <button className='hover'>Resume</button>
             </a>

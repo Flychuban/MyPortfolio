@@ -2,24 +2,27 @@ import styles from './SkillsStyles.module.css'
 import checkMarkIconDark from '../../assets/checkmark-dark.svg'
 import checkMarkIconLight from '../../assets/checkmark-light.svg'
 import SkillList from "../../common/SkillList"
+import { useTheme } from '../../common/ThemeContext'
 
 function Skills() {
+    const { theme, toggleTheme } = useTheme()
+    const checkMarkIcon = theme === 'light' ? checkMarkIconLight : checkMarkIconDark
   return (
     <section id='skills' className={styles.container}>
-        <h1>Skills</h1>
+        <h1 className="sectionTitle">Skills</h1>
         <div className={styles.skillList}>
-          <SkillList src={checkMarkIconLight} skill='Machine Learning' />
-          <SkillList src={checkMarkIconLight} skill='Data Science' />
-          <SkillList src={checkMarkIconLight} skill='Python' />
-          <SkillList src={checkMarkIconLight} skill='TensorFlow' />
-          <SkillList src={checkMarkIconLight} skill='PyTorch' />
+          <SkillList src={checkMarkIcon} skill='Machine Learning' />
+          <SkillList src={checkMarkIcon} skill='Data Science' />
+          <SkillList src={checkMarkIcon} skill='Python' />
+          <SkillList src={checkMarkIcon} skill='TensorFlow' />
+          <SkillList src={checkMarkIcon} skill='PyTorch' />
         </div>
         <hr />
         <div className={styles.skillList}>
-          <SkillList src={checkMarkIconLight} skill='Teamwork' />
-          <SkillList src={checkMarkIconLight} skill='Problem Solving' />
-          <SkillList src={checkMarkIconLight} skill='Communication' />
-          <SkillList src={checkMarkIconLight} skill='Project management' />
+          <SkillList src={checkMarkIcon} skill='Teamwork' />
+          <SkillList src={checkMarkIcon} skill='Problem Solving' />
+          <SkillList src={checkMarkIcon} skill='Communication' />
+          <SkillList src={checkMarkIcon} skill='Project management' />
         </div>
     </section>
   )

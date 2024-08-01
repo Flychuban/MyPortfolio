@@ -44,7 +44,7 @@ function Hero() {
                     <img src={linkedinIcon} alt="LinkedIn icon" />
                 </a>
             </span>
-            <p className={styles.description}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem perspiciatis, repudiandae distinctio fugiat sunt quam? Quos nisi incidunt quasi magnam distinctio enim illo natus nihil cumque illum nam, atque unde.</p>
+            <p className={styles.description}>Hey! I’m Kaloyan Anastasov, a student at TUES - Sofia. I love coding and building challenging projects to improve my skills. My main interests are Machine Learning and Software Development. I'm eager to participate in Hackathons and Internships to gain practical experience and apply my knowledge to real-world projects.</p>
             <a href={CV} download>
                 <button className='hover'>Resume</button>
             </a>

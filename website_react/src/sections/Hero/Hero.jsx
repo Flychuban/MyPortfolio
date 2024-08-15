@@ -45,9 +45,9 @@ function Hero() {
                 </a>
             </span>
             <p className={styles.description}>Hey! I’m Kaloyan Anastasov, a student at TUES - Sofia. I love coding and building challenging projects to improve my skills. My main interests are Machine Learning and Software Development. I'm eager to participate in Hackathons and Internships to gain practical experience and apply my knowledge to real-world projects.</p>
-            <a href={CV} download>
+            {/* <a href={CV} download>
                 <button className='hover'>Resume</button>
-            </a>
+            </a> */}
         </div>
     </section>
   )

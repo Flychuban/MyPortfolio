@@ -14,7 +14,8 @@
         min-width: 300px;
         width: 30dvw;
         align-self: center;
-        background-color: var(--project-card-bg);
+        /* background-color: var(--project-card-bg); */
+        background-color: transparent;
         border-radius: 20px;
     }
 

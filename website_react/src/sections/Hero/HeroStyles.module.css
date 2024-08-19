@@ -9,8 +9,9 @@
     min-height: 500px;
     
     .hero{
-        max-width: 450px;
+        max-width: 750px;
         width: 35dvw;
+        min-width: 300px;
     }
 
     span{

@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css'
-import heroImg from '../../assets/hero-img.png'
+import heroImg from '../../assets/heroImg.png'
 import sunIcon from '../../assets/sun.svg'
 import moonIcon from '../../assets/moon.svg'
 import instagramIconLight from '../../assets/instagram-icon-light.svg'
@@ -34,7 +34,7 @@ function Hero() {
             </h1>
             <h2>Machine Learning Developer</h2>
             <span>
-                <a href="https://www.instagram.com/flychuban/" target='_blank'>
+                <a href="https://www.instagram.com/kaloyan_anastasov07/" target='_blank'>
                     <img src={instagramIcon} alt="Instagram icon" />
                 </a>
                 <a href="https://github.com/Flychuban" target='_blank'>

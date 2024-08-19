@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 0 auto 60px;
-    margin-top: 3.5dvh;
+    margin-top: 7dvh;
     background-color: var(--background-color);
 }
 
@@ -66,6 +66,7 @@ p {
 .hover{
     cursor: pointer;
 }
+
 
 @media (width >= 800px) {
     #root {

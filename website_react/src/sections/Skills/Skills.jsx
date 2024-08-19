@@ -23,6 +23,7 @@ function Skills() {
           <SkillList src={checkMarkIcon} skill='Problem Solving' />
           <SkillList src={checkMarkIcon} skill='Communication' />
           <SkillList src={checkMarkIcon} skill='Project management' />
+          <SkillList src={checkMarkIcon} skill='Time management' />
         </div>
     </section>
   )

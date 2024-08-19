@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './Projects.module.css'
 import ProjectCard from '../../common/ProjectCard'
-import projectViberrImage from '../../assets/viberr.png'
 import quadpixImage from '../../assets/quad_pix.png'
 import diagnosifyLogo from '../../assets/diagnosifyLogo.png'
 import suscamImage from '../../assets/suscam_logo.png'

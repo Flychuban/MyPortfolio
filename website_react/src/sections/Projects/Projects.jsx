@@ -6,12 +6,15 @@ import diagnosifyLogo from '../../assets/diagnosifyLogo.png'
 import suscamImage from '../../assets/suscam_logo.png'
 import cableUndefinedImage from '../../assets/cableUndefinedLogo.png'
 import weijrnImage from '../../assets/weijrnLogo.png'
+import aiMeetingSummarizerImage from '../../assets/aiMeetingSummarizerImage.png'
+
 
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
         <h1 className='sectionTitle'>Projects</h1>
         <div className={styles.projectsContainer}>
+            <ProjectCard src={aiMeetingSummarizerImage} link="https://github.com/Flychuban/ai-meeting-summarizer" textH3="MeetingAI" textP="AI Meeting summarizer fullstack app"/>
             <ProjectCard src={diagnosifyLogo} link="https://github.com/Flychuban/Diagnosify" textH3="Diagnosify" textP="Disease detection system"/>
             <ProjectCard src={cableUndefinedImage} link="https://tuesfest.bg/projects/112" textH3="Cable = Undefined" textP="Smart jumperless breadboard"/>
             <ProjectCard src={suscamImage} link="https://github.com/Flychuban/SusCam" textH3="SusCam" textP="Suspicious activity security system"/>
